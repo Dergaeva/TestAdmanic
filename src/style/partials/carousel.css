@@ -1,0 +1,108 @@
+.touch-device .gallery-holder {
+	width: 800px;
+}
+.gallery-holder .gholder {
+	width: 100%;
+}
+.gallery-holder .gholder:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+.gallery-holder .gmask {
+	position: relative;
+	overflow: hidden;
+	background: #fff;
+	width: 100%;
+	float: left;
+}
+.gallery-holder .gmask .slideset {
+	list-style: none;
+	width: 99999px;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+.gallery-holder .gmask .slide {
+	float: left;
+	text-align: center;
+	width: 514px;
+	height: 500px;
+}
+.gallery-holder a.btn-next {
+	margin: 35px 0 0 10px;
+	float: right;
+}
+.gallery-holder .pagination ul{
+	font-weight: bold;
+	list-style: none;
+	text-align: center;
+	padding: 5px 0;
+	margin: 0;
+}
+.gallery-holder .pagination ul li {
+	padding: 0 5px;
+}
+.gallery-holder .pagination a {
+	text-decoration: none;
+	color: transparent;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background-color: #fff;
+	display: inline-block;
+	z-index: 999;
+}
+.gallery-holder .pagination .active a {
+	width: 7px;
+	height: 7px;
+	background-color: #fff;
+}
+.gallery-holder a.disabled {
+	border-color: #eee;
+	color: #eee;
+}
+.gallery-holder .pagination a:hover,
+.gallery-holder a.btn-prev:hover,
+.gallery-holder a.btn-next:hover {text-decoration:none;}
+
+/* vertical carousel */
+.carousel2 .gmask {
+min-height: 500px;
+}
+.carousel2 .gmask .slideset {
+	width: 100%;
+}
+.carousel2 .gmask .slide {
+	float: none;
+	width: auto !important;
+	background-color: #ff4622;
+}
+.carousel3 .gmask .slideset {
+	width:100% !important;
+	white-space:nowrap;
+	letter-spacing: -4px;
+}
+.carousel3 .gmask .slide {
+	display:inline-block;
+	vertical-align:top;
+	float:none;
+	letter-spacing:0;
+	width:25% !important;
+}
+* html .carousel3 .gmask .slide {display:inline;}
+*+html .carousel3 .gmask .slide {display:inline;}
+.carousel3 .gmask .slide  > * {white-space:normal;}
+
+@media only screen and (max-width: 1000px) {
+
+	.carousel3 .gmask .slide {
+		width: 50% !important;
+	}
+}
+@media only screen and (max-width: 767px) {
+
+	.carousel3 .gmask .slide {
+		width: 100% !important;
+	}
+}

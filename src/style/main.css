@@ -1,0 +1,14 @@
+@import url('../../bower_components/normalize.css/normalize.css');
+@import url('../../bower_components/bootstrap/dist/css/bootstrap.css');
+@import url('../../bower_components/bootstrap/dist/css/bootstrap-theme.min.css');
+
+/*
+* Custom
+*/
+
+@import url('partials/font-awesome/css/font-awesome.css');
+@import url('partials/header.css');
+@import url('partials/footer.css');
+@import url('partials/carousel.css');
+@import url('partials/jcf.css');
+@import url('partials/style.css');

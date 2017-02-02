@@ -1,0 +1,38 @@
+.footer .nav.navbar-nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+	align-content: initial;
+	float: none;
+}
+.footer .nav.navbar-nav > li {
+	padding: 0 15px;
+	font-size: 14px;
+	font-family: 'Lato-regular', sans-serif;
+	font-weight: 400;
+}
+.copyright {
+	color: #dcdcdc;
+	font-size: 14px;
+	text-align: center;
+}
+.social-btn {
+	text-align: center;
+	padding-bottom: 30px;
+}
+.social-btn a {
+	display: inline-block;
+	padding: 0 10px;
+	-webkit-transition: all 0.3s ;
+	-moz-transition: all 0.3s ;
+	transition: all 0.3s ;
+}
+.social-btn a > i {
+	 color: #d2d2d2;
+	 font-size: 32px;
+ }
+.social-btn a:hover i {
+	color: #ff4622;
+}
